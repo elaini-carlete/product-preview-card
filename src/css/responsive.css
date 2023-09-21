@@ -1,0 +1,17 @@
+@media(max-width: 576px){
+    main{
+        flex-direction: column;
+        max-width: 300px;
+    }
+
+    img{
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
+        max-width: 300px;
+    }
+
+    .informations .btn-cart{
+        width: 250px;
+    }
+}
