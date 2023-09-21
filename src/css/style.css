@@ -1,5 +1,5 @@
 body{
-    background-color: var(--primary-soft);
+    background-color: var(--background-primary);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,7 +9,7 @@ body{
 main{
     display: flex;
     max-width: 500px;
-    background-color: var(--neutral-soft);
+    background-color: var(--background-secondary);
     border-radius: 8px;
 }
 
@@ -20,28 +20,28 @@ img{
 }
 
 .informations{
-    margin: 25px;
+    padding: 25px;
 }
 
-.informations .title-1{
+.informations span{
     text-transform: uppercase;
     letter-spacing: 5px;
     font-family: var(--font-primary);
-    color: var(--neutral-medium);
+    color: var( --color-text);
     font-size: 10px;
 }
 
-.informations .title-2{
+.informations .title{
     font-family: var(--font-secondary);
     text-transform: capitalize;
     font-size: 28px;
     line-height: 25px;
     padding: 20px 0;
-    color: var(--neutral-dark);
+    color: var(--color-title);
 }
 
-.informations .text{
-    color: var(--neutral-medium);
+.informations .info-parfum{
+    color: var(--color-text);
     line-height: 20px;
     font-family: var(--font-primary);
     font-size: 12px;
@@ -55,7 +55,7 @@ img{
 
 .informations .price .price-big{
     font-size: 27px;
-    color: var(--primary-medium);
+    color: var(--background-color-medium);
     font-family: var(--font-secondary);
 }
 
@@ -63,7 +63,7 @@ img{
     margin-left: 20px;
     font-size: 12px;
     font-family: var(--font-primary);
-    color: var(--neutral-medium);
+    color: var(--color-text);
     text-decoration: line-through;
 }
 
@@ -71,8 +71,8 @@ img{
     cursor: pointer;
     width: 195px;
     height: 45px;
-    background-color: var(--primary-medium);
-    color: var( --neutral-soft);
+    background-color: var(--background-color-medium);
+    color: #ffffff;
     border-radius: 8px;
     font-family: var(--font-primary);
     display: flex;
